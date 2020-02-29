@@ -1,0 +1,9 @@
+db:
+    type: postgresql:11
+    disk: 1024
+    configuration:
+        extensions:
+            - uuid-ossp
+            - pgcrypto
+redis:
+    type: redis:3.0

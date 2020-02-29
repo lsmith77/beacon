@@ -49,6 +49,7 @@ gem "twilio-ruby"
 gem "uglifier", ">= 1.3.0"
 gem "unicode-emoji"
 gem "valid_email2"
+gem 'platform_sh_rails'
 
 group :development, :test do
   gem "brakeman"
